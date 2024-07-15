@@ -1,0 +1,268 @@
+
+body{
+    margin: 0px;
+    padding:0px;
+}
+.header-section{
+    background-image: url('/assets/image/p1.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+li{
+    float: left;
+    list-style-type: none;
+    margin-left: 50px;
+}
+.dropdown{
+    display: none;
+}
+.drop:hover .dropdown{
+    display: block;
+}
+
+a{
+    display: block;
+    
+}
+.dropcolor{
+    background-color: #f1f1f1;
+    color: black;
+}
+a:hover{
+    background-color: green;
+    
+}
+.logo1 img{
+  height: 40px;
+}
+.logo1{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo2{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+.drop{
+      width: 100px;
+      
+}
+.menu li a{
+    padding: 10px;
+}
+.drop .dropdown a{
+    margin: 0px;
+    padding: 10px;
+}
+.section{
+    background-color: rgb(255, 187, 0);
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+}
+.section1 img{
+    height: 200px;
+    width: 15rem;
+}
+.section1 div{
+    margin:40px;
+}
+.section1{
+    background-color: rgb(196, 196, 209);
+}
+.section2 a img{
+  height: 300px;
+  padding: 10px;
+  width: 400px;
+  background-color: #f1f1f1;
+}
+.section2{
+    display: flex;
+    background-color: rgb(173, 171, 175);
+}
+.section2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.img5, .img6{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+.contact{
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .section3{
+    display: flex;
+  }
+  .section3 .contact,.form{
+    width: 100%;
+  }
+  .footer{
+    height: 50%;
+    width: 100%;
+    background-color: gray;
+  }
+  .logoappworks{
+    text-align: center;
+  }
+
+.singleline{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    
+}
+.x{
+    display: flex;
+}
+.singleline a{
+  padding-top: 20px;
+
+}
+.singleline{
+  display: flex;
+}
+@media only screen and (max-width:991px){
+
+.section1, .section2, .section3, .header-section {
+    display: block;
+}
+.img5, .img6 {
+  width: 100%;
+}
+.section2 a img{
+width:100%;
+height:auto
+}
+.menu {
+  margin-left: 0px;
+}
+.menu li{
+  display: block;
+  float: none;
+}
+.form{
+  width: 100%;
+}
+.imgg2 img{
+  justify-content: center;
+}
+.section1 img{
+  justify-content: center;
+}
+.imgg1,.imgg2,.imgg3,.imgg4{
+  padding-top: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.contact img{
+  width: 100%;
+}
+}
+@media only screen and (max-width:1211px){
+  .section1{
+    display: block;
+  }
+  .imgg1,.imgg2,.imgg3,.imgg4{
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  @media only screen and (min-width:743px) and (max-width:1278px){
+    .menu ul{
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+
+}
+@media only screen and (min-width:992){
+  .header-section{
+    display: block;
+    justify-content: center;
+  }
+
+}
+@media only screen and (min-width:426px){
+  .header-section{
+    display: flex;
+  }
+}
